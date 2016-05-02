@@ -19,7 +19,7 @@ echo "Moodul: " . (4 % 3) . "<br>";
 echo "Astendamine: " . pow($a, $b) . "<br>";
 echo "Ruutjuur: " . pow(16, 1/2) . "<br>"; 
 
-echo "a: ".$a+=2;
-echo " a: ".$a=$a+2;
+echo "a: " . $a+=2;
+echo " a: " . $a=$a+2;
 
 ?>

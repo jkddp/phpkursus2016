@@ -1,10 +1,10 @@
  <?php 
 
-    $animal = "fox";
+    $animal = "foxid";
     
     if ($animal != "") 
     {
-            echo "oled zoopargis!";
+            echo "oled zoopargis !";
     }
      
 ?> 
