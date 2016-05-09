@@ -28,7 +28,7 @@ check_rights(USER);
   <td><input type=text name=username value=<?php  echo $_GET['username'] ?>></td>
 </tr>
 <tr>
-  <td>Salasına:*</td>
+  <td>Salas√µna:*</td>
   <td><input type=password name=password value=<?php  echo $_GET['password'] ?>></td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@ check_rights(USER);
   </td>
 </tr>
 <tr>
-  <td>M‰rkus:</td>
+  <td>M√§rkus:</td>
   <td><textarea name=comment cols=25 rows=7>Siia sisesta oma kommentaarid</textarea></td>
 </tr>
 <tr>
@@ -73,7 +73,7 @@ check_rights(USER);
 
 <?php  
 
-  //print_r($_POST);
+  print_r($_POST);
   //echo $_POST['username'];
   
   #let's make strings secure
@@ -102,12 +102,12 @@ check_rights(USER);
     //echo $query;
     
     mysql_query($query) OR
-    die("Ebaınnestus: " . mysql_error());
+    die("Eba√µnnestus: " . mysql_error());
   
   }
 
 //echo "<a href=".$_SERVER['SCRIPT_NAME']."?username=
-//uugu&password=porgand&name=Uugu-Lehmaste>Automaatselt t‰ida v‰ljad</a>";
+//uugu&password=porgand&name=Uugu-Lehmaste>Automaatselt t√§ida v√§ljad</a>";
 //print_r($_GET);
 
 include "footer.php";
