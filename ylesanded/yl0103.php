@@ -87,17 +87,7 @@ Vastus 0302<br>
 <br>
 <?php
 
-function vaheta_elemendid($e1, $e2, $mas)  {
 
-	$ajutine = $mas[$e1];
-	$mas[$e1] = $mas[$e2];
-	$mas[$e2] = $ajutine;
-
-	return $mas;
-
-}
-
-$loomad = vaheta_elemendid(3, 7, $loomad);
 ?>
 <br>
 <br>
