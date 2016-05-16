@@ -13,6 +13,10 @@
 <br>Väljasta see "print_r" funktsiooniga.
 <br>
 <br>
+<?php 
+
+
+?>
 <br>
 <br>================================
 <br>Ülesanne 0202
@@ -21,6 +25,24 @@
 <br>Väljasta see "foreach" tsükkliga.
 <br>
 <br>
+<?php 
+
+$animals[]="karu"; 
+$animals[]="rebane"; 
+$animals[]="hunt"; 
+$animals[]="siil"; 
+$animals[]="hirv"; 
+$animals[]="jänes"; 
+$animals[]="loom"; 
+$animals[]="põder"; 
+$animals[]="kährik"; 
+$animals[]="kähriklane"; 
+
+echo "<pre>"; 
+print_r($animals); 
+echo "<pre>"; 
+
+?>
 <br>
 <br>================================
 <br>Ülesanne 0203
@@ -30,6 +52,16 @@
 <br>Väljasta see "for" tsükliga.
 <br>
 <br>
+<?php 
+
+$stars = array('Clint', 'Bruce', 'Mel', 'Madonna', 'Savisaar', 'Sandra', 'Ott', 'Näitleja_8', 'Mikk', 'Kaspar'); 
+
+for($i=0; $i<sizeof($stars); $i++) 
+{ 
+  echo "$i) $stars[$i]<br>"; 
+} 
+
+?>
 <br>
 <br>================================
 <br>Ülesanne 0204
@@ -39,6 +71,17 @@
 <br>Nt. "Kodanik [nimi] on [vanus] aastane"
 <br>
 <br>
+<?php 
+$isikuandmed["nimi"]="Jim Piim";
+$isikuandmed["vanus"]="28";
+$isikuandmed["linn"]="Tallinn";
+$isikuandmed["riik"]="Eesti";
+$isikuandmed["maailmajagu"]="Euroopa";
+
+echo "Kodanik $isikuandmed["nimi"] on $isikuandmed["vanus"] aastane, sünnikohaga $isikuandmed["linn"], $isikuandmed["riik"], $isikuandmed["maailmajagu"].";
+echo "<hr>";
+
+ ?>
 <br>
 <br>================================
 <br>Ülesanne 0205
@@ -51,3 +94,8 @@
 <br>jne.
 <br>Väljasta see massiiv tsüklitega.
 <br>
+<br>
+<?php 
+
+
+?>
